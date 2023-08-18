@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.swiper {
+  width: 100%;
+  height: 80%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.relative {
+  padding-top: 50px;
+}
+.cart {
+  height: 100vh;
+  background-color: #1c1c1c60;
+}
+/* .map{
+  background:url(https://ninjasushi.com.ua/map/img/delivery-klb.jpg?ver=1.32); background-size:cover; background-position:center;
+} */
+
+.loader {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.loader::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: currentColor;
+  position: absolute;
+  bottom: 10px;
+  right: -5px;
+  box-sizing: border-box;
+  animation: animloader 1s linear infinite;
+}
+
+@keyframes animloader {
+  0% {
+    box-shadow: 10px 0 rgba(255, 255, 255, 0), 20px 0 rgba(255, 255, 255, 0);
+  }
+  50% {
+    box-shadow: 10px 0 white, 20px 0 rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 10px 0 white, 20px 0 white;
+  }
+}

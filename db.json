@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 2006,
+      "username": "shoxaka",
+      "email": "shoxaka@gmail.com",
+      "password": 12365,
+      "goods": [],
+      "likes": [
+        {
+          "idMeal": "52819",
+          "strMeal": "Cajun spiced fish tacos",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg"
+        },
+        {
+          "idMeal": "52959",
+          "strMeal": "Baked salmon with fennel & tomatoes",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/1548772327.jpg"
+        },
+        {
+          "idMeal": "52819",
+          "strMeal": "Cajun spiced fish tacos",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg"
+        },
+        {
+          "idMeal": "52819",
+          "strMeal": "Cajun spiced fish tacos",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg"
+        },
+        {
+          "idMeal": "53043",
+          "strMeal": "Fish fofos",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/a15wsa1614349126.jpg"
+        },
+        {
+          "idMeal": "53043",
+          "strMeal": "Fish fofos",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/a15wsa1614349126.jpg"
+        },
+        {
+          "idMeal": "52944",
+          "strMeal": "Escovitch Fish",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/1520084413.jpg"
+        },
+        {
+          "idMeal": "52944",
+          "strMeal": "Escovitch Fish",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/1520084413.jpg"
+        },
+        {
+          "idMeal": "52802",
+          "strMeal": "Fish pie",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg"
+        },
+        {
+          "idMeal": "53041",
+          "strMeal": "Grilled Portuguese sardines",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/lpd4wy1614347943.jpg"
+        }
+      ],
+      "isLogin": true
+    },
+    {
+      "id": "03c47db5-8835-41c6-936d-d0d7e53dd582",
+      "username": "shox",
+      "email": "asd@asd.com",
+      "password": "123456",
+      "goods": [],
+      "likes": []
+    }
+  ]
+}
